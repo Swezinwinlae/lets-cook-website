@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Category</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="web-name">Let's Cook</div>
+            <div class="nav-links">
+                <a href="./index.html">Home</a>
+                <a href="./category.html?type=breakfast">Breakfast</a>
+                <a href="./category.html?type=curry">Curry</a>
+                <a href="./category.html?type=snacks">Snacks</a>
+                <a href="./category.html?type=dessert">Dessert</a>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search recipes...">
+                <button>Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="category-section">
+        <h1 id="category-title"></h1>
+    </section>
+
+    <section class="recipe-list-section">
+        <div class="collection-container" id="recipe-list"></div>
+    </section>
+
+<script src="../js/recipes.js"></script>
+<script src="../js/category.js"></script>
+</body>
+<footer>
+    <p>&copy; 2026 Let's Cook. All rights reserved.</p>
+</footer>
+</html>

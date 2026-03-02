@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Let's cook</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="web-name">Let's Cook</div>
+            <div class="nav-links">
+                <a class="active-link" href="../frontend/index.html">Home</a>
+                <a href="category.html?type=breakfast">Breakfast</a>
+                <a href="category.html?type=curry">Curry</a>
+                <a href="category.html?type=snacks">Snacks</a>
+                <a href="category.html?type=dessert">Dessert</a>
+            </div>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search recipes...">
+                <button>Search</button>
+            </div>
+        </div>
+    </nav>
+    <section class="welcome">
+        <div class="welcome-content">
+            <img class="homepageimg" src="../img/homepageimg.png" alt="food">
+            <div class="welcome-text">
+                <h1>Welcome to Let's cook</h1>
+                <p>Discover delicious Myanmar recipes and cooking tips.</p>
+                <button class="explore-btn"><a href="#collection">Explore</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="collection">
+        <h2>Explore Our Collection</h2>
+        <div class="collection-container">
+            <div class="collection">
+                <a href="category.html?type=breakfast">
+                    <img class="collection-img" src="../img/breakfast.jpg" alt="Myanmar Breakfast Foods">
+                    <p>Breakfast</p>
+                </a>
+            </div>
+            <div class="collection">
+                <a href="category.html?type=curry">
+                    <img class="collection-img" src="../img/lunch.jpg" alt="Myanmar Lunch Foods">
+                    <p>Curry</p>
+                </a>
+            </div>
+            <div class="collection">
+                <a href="category.html?type=snacks">
+                    <img class="collection-img" src="../img/snacks.jpg" alt="Myanmar Snacks">
+                    <p>Snacks</p>
+                </a>
+            </div>
+            <div class="collection">
+                <a href="category.html?type=dessert">
+                    <img class="collection-img" src="../img/dessert.jpg" alt="Myanmar Desserts">
+                    <p>Dessert</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="featured-container">
+
+            <div class="featured-image">
+                <img src="../img/mohinga.jpg" alt="Mohinga">
+            </div>
+
+            <div class="featured-content">
+                <h2>Example Recipe: Mohinga</h2>
+                <p>
+                    Mohinga is a traditional Myanmar dish made with rice noodles,
+                    fish broth, and various herbs and spices. It's often enjoyed
+                    as a breakfast dish but can be eaten at any time of the day.
+                </p>
+                <a href="./recipe.html?type=breakfast&id=mohinga"><button class="cook-btn">How to cook?</button></a>
+            </div>
+
+        </div>
+    </section>
+</body>
+<footer>
+    <p>&copy; 2026 Let's Cook. All rights reserved.</p>
+</footer>
+</html>
